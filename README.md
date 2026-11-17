@@ -53,7 +53,7 @@ flowchart TB
 | Équipement | Interface | IP | Passerelle | DNS | Mode |
 |---|---|---|---|---|---|
 | SHADAILAB | Ethernet0 | 172.16.0.10/24 | 172.16.0.20 | 172.16.0.10 | Statique |
-| SRV-LINUX | ens160 | 172.16.0.20/24 | 192.168.100.2 | — | Statique |
+| SRV-LINUX | ens160 | 172.16.0.20/24 | 192.168.100.2 | 8.8.8.8 | Statique |
 | SRV-LINUX | ens224 | 192.168.100.20/24 | 192.168.100.2 | 192.168.100.2, 8.8.8.8 | Statique |
 | WIN_10 | Ethernet0 | 172.16.0.100 à .200 | 172.16.0.20 | 172.16.0.10 | DHCP |
 | VM-TEST1 | ens33 | 192.168.100.53/24 | 192.168.100.20 | 8.8.8.8 | Statique |
