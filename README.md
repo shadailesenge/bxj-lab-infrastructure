@@ -11,7 +11,7 @@
 Projet pratique de fin de **Module 5** (formation Réseaux & Cybersécurité, Kadea Academy). BXJ Technologies souhaite centraliser l'authentification et l'administration d'un parc d'environ cinquante postes. La maquette reconstruit cette infrastructure de zéro dans un nouveau domaine Active Directory, **`bxj.lab`**, porté par le contrôleur de domaine **SHADAILAB** (Windows Server 2025, `172.16.0.10`).
 
 Tout est automatisé par des scripts **PowerShell** (côté Windows) et **Bash** (côté Linux). Les scripts Active Directory sont **idempotents** : on peut les relancer sans risque, un objet déjà présent est vérifié et corrigé au lieu d'être recréé.
-
+**Vidéo de démonstration :** [Voir la vidéo sur LinkedIn](https://lnkd.in/p/dQe4YeGf)
 ## Architecture
 
 ```mermaid
