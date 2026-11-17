@@ -1,0 +1,37 @@
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+
+# Fichiers temporaires et journaux
+*.log
+*.tmp
+*.bak
+
+# Secrets : ne jamais publier de mots de passe ni de clés
+*.key
+*.pem
+*.pfx
+*.ppk
+.env
+*recovery*key*
+*cle-de-recuperation*
+
+# Images disque et machines virtuelles
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.iso
+*.vmx
+*.vmem
+*.nvram
+*.lck/
+
+# Archives de sauvegarde produites par 07-backup-restore.sh
+backup_*.tar.gz
